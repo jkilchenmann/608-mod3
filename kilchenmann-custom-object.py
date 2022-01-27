@@ -23,7 +23,7 @@ tipPercent = 20.0
 tax = purchase.calculateTax(taxPercent)
 tip = purchase.calculateTip(tipPercent)
 
-# Display some useful information
+# Display results
 print ('Tax: ', tax)
 print ('Tip: ', tip)
 print ('Total: ', purchase.calculateTotal(taxPercent, tipPercent))
